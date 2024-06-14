@@ -14,7 +14,7 @@ import os
 import sys 
 
 
-sys.path.append(os.path.abspath('/media/kalyan/Data/yolo-ggcnn/ggcnn/'))
+sys.path.append(os.path.abspath('ggcnn/'))
 
 
 bridge = CvBridge()
@@ -22,7 +22,7 @@ bridge = CvBridge()
 # Suppress torch warning
 warnings.filterwarnings("ignore", category=torch.serialization.SourceChangeWarning)
 
-MODEL_FILE = '/media/kalyan/Data/yolo-ggcnn/ggcnn/ggcnn2_weights_cornell/epoch_50_cornell'
+MODEL_FILE = 'ggcnn/ggcnn2_weights_cornell/epoch_50_cornell'
 model = torch.load(MODEL_FILE)
 device = torch.device("cuda:0")
 
