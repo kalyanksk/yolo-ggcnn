@@ -14,8 +14,11 @@ This code is tested with Python 3.10.12 on Linux Mint 21.3 and CoppeliaSim 4.6.
 4. Run the `run_ggcnn.py` script.
 
 ## Demo
-![Output sample](assets/demo.mov)
+https://github.com/kalyanksk/yolo-ggcnn/assets/94881228/0fde3233-bef9-4c15-9d92-d53bab0bc1c2
 
 ## References
 1. [YOLOv8](https://github.com/ultralytics/ultralytics)
 2. [GG-CNN](https://github.com/dougsm/ggcnn)
+
+
+
