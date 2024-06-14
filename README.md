@@ -14,7 +14,7 @@ This code is tested with Python 3.10.12 on Linux Mint 21.3 and CoppeliaSim 4.6.
 4. Run the `run_ggcnn.py` script.
 
 ## Demo
-![Output sample](assets/demo.mp4)
+![Output sample](assets/demo.mov)
 
 ## References
 1. [YOLOv8](https://github.com/ultralytics/ultralytics)
